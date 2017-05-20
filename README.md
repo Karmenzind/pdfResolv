@@ -3,8 +3,8 @@
 in python 2.7
 
 1. Parse a pdf file and extract text object.
-2. For scanning pdf, the OCR method is needed. For now, the result of recognition is not precise enough.
-3. Collect all sentences including '(?i)fig(ure)(\s?\.\d+)?'.
+2. For scanning pdf, the OCR method is needed. For now the result of recognition isn't precise enough.
+3. Collect all sentences matching '(?i)fig(ure)(\s?\.\d+)?'.
 
 
 required Py modules:
